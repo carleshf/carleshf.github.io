@@ -8,13 +8,13 @@ The first step is to get the size of each chromosome and the location of the cen
 
 The table "chromInfo" contains the size of each chromosome
 
-	#chrom	size	fileName
-	chr1	249250621	/gbdb/hg19/hg19.2bit
-	chr2	243199373	/gbdb/hg19/hg19.2bit
-	chr3	198022430	/gbdb/hg19/hg19.2bit
-	chr4	191154276	/gbdb/hg19/hg19.2bit
-	chr5	180915260	/gbdb/hg19/hg19.2bit
-	[...]
+    #chrom	size	fileName
+    chr1	249250621	/gbdb/hg19/hg19.2bit
+    chr2	243199373	/gbdb/hg19/hg19.2bit
+    chr3	198022430	/gbdb/hg19/hg19.2bit
+    chr4	191154276	/gbdb/hg19/hg19.2bit
+    chr5	180915260	/gbdb/hg19/hg19.2bit
+    [...]
 
 The table "gap" contains the location of different elements, including the centromeres:
 
@@ -65,6 +65,6 @@ With the tables loaded we can use `ggplot2` and `geom_segments` to create a box 
 
 The previous code shows a karyotype map:
 
-![Karyotype plot with ggplot2](img/ggplot2_karyotype.png)
+![Karyotype plot with ggplot2]({{baseurl}}/assets/ggplot2_karyotype.png)
 
 Over this diagram other information can be added with extra `geom_segments`.

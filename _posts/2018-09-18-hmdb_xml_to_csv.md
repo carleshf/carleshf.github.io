@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Exploting XML data from Human Metabolome Data Base
 
@@ -103,5 +103,3 @@ The following is the python code I used to parse the XML file and create a CSV f
                 del ancestor.getparent()[ 0 ]
     
     del context
-
-

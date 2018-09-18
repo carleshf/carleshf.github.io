@@ -1,4 +1,5 @@
 ---
+published: true
 layout: post
 title: practical ggplot2 - Creating a chromosome karyotype plot
 ---

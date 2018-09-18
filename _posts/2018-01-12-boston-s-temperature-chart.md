@@ -1,5 +1,4 @@
 ---
----
 published: true
 layout: post
 title: Boston's Temperature Chart
@@ -8,7 +7,7 @@ title: Boston's Temperature Chart
 
 At the end of January I will be moving to Boston. I will start my post-doc at the [Boston Children's Hospital](www.childrenshospital.org). So... I started looking to weather and temperature conditions. I used [Weather Underground](https://www.wunderground.com) to download a weatehr tamble for each month in 2016 and 2017.
 
-The aim is to create a plot with everyday mínimum and maximum temperature along all 2017. Also a heat-map indicating the weather condition of each day of the year.
+The aim is to create a plot with everyday minimum and maximum temperature along all 2017. Also a heat-map indicating the weather condition of each day of the year.
 
 ```{r}
 data_files <- list.files( data_path, full.names = TRUE )
@@ -87,7 +86,7 @@ ggplot( data_melt, aes( x = Day, y = value, fill = variable ) ) +
   theme( legend.position = "top" )
 ```
 
-[!Boston's Temperature 2017]({{baseurl}}/assets/boston-weather-temperature.png)
+![Boston's Temperature 2017]({{baseurl}}/assets/boston-weather-temperature.png)
 
 For the weather conditions heat-map I start creating the colors codification:
 
@@ -128,4 +127,4 @@ ggplot( data_melt, aes( x = Day, y = Month, fill = events ) ) + geom_tile() +
   scale_alpha_manual( values = 0.3 )
 ```
 
-[!Boston's Weather Condition 2017]({{baseurl}}/assets/boston-weather-conditions.png)
+![Boston's Weather Condition 2017]({{baseurl}}/assets/boston-weather-conditions.png)

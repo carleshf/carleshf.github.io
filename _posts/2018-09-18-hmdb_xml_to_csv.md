@@ -12,7 +12,8 @@ In my case I was interested in obtaining the chemical class of each exogenous ch
 
 The following is the python code I used to parse the XML file and create a CSV file with the information I required for my project.
 
-	#!/usr/bin/env python3
+```python
+    #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
     
     import csv
@@ -104,3 +105,4 @@ The following is the python code I used to parse the XML file and create a CSV f
                 del ancestor.getparent()[ 0 ]
     
     del context
+```

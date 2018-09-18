@@ -7,7 +7,7 @@ title: Boston's Temperature Chart
 
 At the end of January I will be moving to Boston. I will start my post-doc at the [Boston Children's Hospital](www.childrenshospital.org). So... I started looking to weather and temperature conditions. I used [Weather Underground](https://www.wunderground.com) to download a weatehr tamble for each month in 2016 and 2017.
 
-The aim is to create a plot with everyday mínimum and maximum temperature along all 2017. Also a heat-map indicating the weather condition of each day of the year.
+The aim is to create a plot with everyday minimum and maximum temperature along all 2017. Also a heat-map indicating the weather condition of each day of the year.
 
 ```{r}
 data_files <- list.files( data_path, full.names = TRUE )

@@ -18,11 +18,11 @@ The table "chromInfo" contains the size of each chromosome
 
 The table "gap" contains the location of different elements, including the centromeres:
 
-	#bin	chrom	chromStart	chromEnd	ix	n	size	type	bridge
-	0	chr1	124535434	142535434	1271	N	18000000	heterochromatin	no
-	23	chr1	121535434	124535434	1270	N	3000000	centromere	no
-	76	chr1	3845268	3995268	47	N	150000	contig	no
-	85	chr1	13219912	13319912	154	N	100000	contig	no
+    #bin	chrom	chromStart	chromEnd	ix	n	size	type	bridge
+    0	chr1	124535434	142535434	1271	N	18000000	heterochromatin	no
+    23	chr1	121535434	124535434	1270	N	3000000	centromere	no
+    76	chr1	3845268	3995268	47	N	150000	contig	no
+    85	chr1	13219912	13319912	154	N	100000	contig	no
 
 With the tables saved as files ( "chromInfo" as `chrm_size.tsv` and "gap" as `gap_table.tsv` ) we load and preprocess them:
 

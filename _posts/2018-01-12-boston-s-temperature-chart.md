@@ -1,8 +1,6 @@
 ---
-published: false
 ---
----
-published: false
+published: true
 layout: post
 title: Boston's Temperature Chart
 ---
@@ -89,6 +87,8 @@ ggplot( data_melt, aes( x = Day, y = value, fill = variable ) ) +
   theme( legend.position = "top" )
 ```
 
+[!Boston's Temperature 2017]({{baseurl}}/assets/boston-weather-temperature.png)
+
 For the weather conditions heat-map I start creating the colors codification:
 
 ```{r}
@@ -127,3 +127,5 @@ ggplot( data_melt, aes( x = Day, y = Month, fill = events ) ) + geom_tile() +
   ylab( "" ) + ggtitle( "Boston Weather Events 2017" ) +
   scale_alpha_manual( values = 0.3 )
 ```
+
+[!Boston's Weather Condition 2017]({{baseurl}}/assets/boston-weather-conditions.png)

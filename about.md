@@ -13,18 +13,15 @@ I still collaborate with the [Bioinformatic Research Group in Epidemiology](http
 
 ### Contact
 
-* **Location**: Enders Research Laboratory; Boston Children's Hospital; 300 Longwood Ave, Boston, MA 02115; USA
-* **E-mail**: carles.hernandez-ferrer@childrens.harvard.edu
-* **Phone number**: 617-355-2933
+* __Location__: Enders Research Laboratory; Boston Children's Hospital; 300 Longwood Ave, Boston, MA 02115; USA
+* __E-mail__: carles.hernandez-ferrer@childrens.harvard.edu
+* __Phone number__: 617-355-2933
 
 ### Education
 
-* PhD in Biomedicine, 2017
- 	* Universitat Pompeu Fabra
-* MSc in Bioinformatics, 2013
-	* Universitat Autonoma de Barcelona
-* BSc in Computer Sciences, 2012
-	* Universitat Autonoma de Barcelona
+* PhD in Biomedicine / _Universitat Pompeu Fabra_ / 2017
+* MSc in Bioinformatics / _Universitat Autonoma de Barcelona_ / 2013
+* BSc in Computer Sciences / _Universitat Autonoma de Barcelona_ /  2012
 
 ### Interests
 

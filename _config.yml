@@ -58,7 +58,7 @@ permalink: /:title/
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
-highlighter: rouge
+#highlighter: rouge
 
 ## # Jekyll 3 now only supports Kramdown for Markdown
 ## kramdown:
@@ -71,8 +71,8 @@ highlighter: rouge
 ##     css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
+#sass:
+#  style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:

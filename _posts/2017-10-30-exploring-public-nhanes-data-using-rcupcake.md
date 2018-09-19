@@ -6,7 +6,7 @@ title: Exploring public NHANES data using Rcupcake
 
 The `Rcupcake` package contains functions to query different databases through the BD2K RESTful API. BD2K RESTful API is an interface that provides access to different data sources, making easier data accessibility, analysis reproducibility and scalability.
 
-The package is installed via `devtools` using it's GitHub URL (`hms-dbmi/Rcupcake`)
+The package is installed via `devtools` using it's GitHub URL (`hms-dbmi/Rcupcake`) or following their guide (also in GiHub - [here](https://github.com/hms-dbmi/Rcupcake)).
 
 ```R
 library( Rcupcake )

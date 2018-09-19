@@ -12,22 +12,24 @@ So, having a list of KEGG compounds saved in a character vector like `kegg_compo
 
 The following (_rudimentary_) code, queries the database in batches of ten compounds fiddling a list (`pathways`) where it creates an entry per pathway and updates the field `compounds` with the compounds from `kegg_compounds` for each pathway.
 
-    pathways <- list()
-    sequence <- seq(1, length(kegg_compounds), by=10)
-    for(ii in sequence) {
-        jj <- ii + 9
-        if(jj > length(kegg_compounds)) jj <- length(kegg_compounds)
-        query <- keggGet(paste("cpd:", kegg_compounds[seq(ii, jj)]))
-        message("Query / ", ii, " - ", jj, " / ", length(query))
-        for(kk in seq(length(query))) {
-            for(id in names(query[[kk]]$PATHWAY)) {
-                if(id %in% names(pathways)) {
-                    pathways[[id]]$compounds <- unique(c(pathways[[id]]$compounds , as.character(query[[kk]]$ENTRY)))
-                } else {
-                    pathways[[id]] <- list(name = as.character(query[[kk]]$PATHWAY[id]),
-                      id = id, compounds = c(as.character(query[[kk]]$ENTRY))
-                    )
-                }
+```R
+pathways <- list()
+sequence <- seq(1, length(kegg_compounds), by=10)
+for(ii in sequence) {
+    jj <- ii + 9
+    if(jj > length(kegg_compounds)) jj <- length(kegg_compounds)
+    query <- keggGet(paste("cpd:", kegg_compounds[seq(ii, jj)]))
+    message("Query / ", ii, " - ", jj, " / ", length(query))
+    for(kk in seq(length(query))) {
+        for(id in names(query[[kk]]$PATHWAY)) {
+            if(id %in% names(pathways)) {
+                pathways[[id]]$compounds <- unique(c(pathways[[id]]$compounds , as.character(query[[kk]]$ENTRY)))
+            } else {
+                pathways[[id]] <- list(name = as.character(query[[kk]]$PATHWAY[id]),
+                    id = id, compounds = c(as.character(query[[kk]]$ENTRY))
+                )
             }
         }
     }
+}
+```

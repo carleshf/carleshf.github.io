@@ -9,15 +9,15 @@ At the end of January I will be moving to Boston. I will start my post-doc at th
 
 The aim is to create a plot with everyday minimum and maximum temperature along all 2017. Also a heat-map indicating the weather condition of each day of the year.
 
-```{r}
+```R
 data_files <- list.files( data_path, full.names = TRUE )
 basename( data_files )
 ```
 
 The header of each one of tha downloaded tables corresponds to:
 
-```{r}
-header <- c( "Day", "tmp_high", "tmp_avg", "tmp_low", "dewp_high", "dewp_avg", 
+```R
+header <- c( "Day", "tmp_high", "tmp_avg", "tmp_low", "dewp_high", "dewp_avg",
     "dewp_low", "hum_high", "hum_avg", "hum_low", "seap_high", "seap_avg", 
     "seap_low", "vis_high", "vis_avg", "vis_low", "wind_high_1", "wind_avg", 
     "wind_high_2", "precip", "events" )
@@ -25,7 +25,7 @@ header <- c( "Day", "tmp_high", "tmp_avg", "tmp_low", "dewp_high", "dewp_avg",
 
 I also translated the names of the months:
 
-```{r}
+```R
 month_names <- c( "jan" = "January", "feb" = "February", "mar" = "March", 
     "apr" = "April", "may" = "May", "jun" = "June", "jul" = "July", 
     "aug" = "August", "sep" = "September", "oct" = "October", 
@@ -34,14 +34,14 @@ month_names <- c( "jan" = "January", "feb" = "February", "mar" = "March",
 
 Then I read each table:
 
-```{r}
+```R
 data <- lapply( data_files, read.delim, skip = 1, sep = "\t", col.names = header )
 names( data ) <- sapply( data_files, basename )
 ```
 
 Once the data is lodead, I add to each table the name of the file, the month and the year.
 
-```{r}
+```R
 data <- lapply( names( data ), function( nm ) { 
   data[[ nm ]]$File <- nm
   data[[ nm ]]$Month <- month_names[ strsplit( nm, "_" )[[1]][3] ]
@@ -53,13 +53,13 @@ names( data ) <- sapply( data_files, basename )
 
 Once the tables are properly formated I subest only those used in the plots:
 
-```{r}
+```R
 sel_2017 <- names( data )[ substr( names( data ), start = 1, stop = 4) == "2017" ]
 ```
 
 Using `reshape2` package we *melt* the list of tables to be used with `ggplot2`:
 
-```{r}
+```R
 library( reshape2 )
 
 vars <- c( "Day", "Month", "Year" )
@@ -68,13 +68,13 @@ data_melt <- melt( lapply( sel_2017, function( nm ) data[[ nm ]][ , c( vars, "tm
 
 It is important to be sure `Month` is a `factor` and that this `factor` is properly ordered:
 
-```{r}
+```R
 data_melt$Month <- factor( data_melt$Month, levels = month_names )
 ```
 
 Finally we plot the temperature chart:
 
-```{r}
+```R
 library( ggplot2 )
 
 ggplot( data_melt, aes( x = Day, y = value, fill = variable ) ) + 
@@ -90,7 +90,7 @@ ggplot( data_melt, aes( x = Day, y = value, fill = variable ) ) +
 
 For the weather conditions heat-map I start creating the colors codification:
 
-```{r}
+```R
 color_events = c( "*" = "White",
   "Fog" = "Azure",
   "Fog , Rain" = "#CEE7FF",
@@ -106,9 +106,9 @@ color_events = c( "*" = "White",
 )
 ```
 
-Then I create the _metked_ table:
+Then I create the table:
 
-```{r}
+```R
 data_melt <- melt( lapply( sel_2017, function( nm ) {
     data[[ nm ]][ , c( vars, "events" ) ]
 }), id.vars = c( vars, "events" ) )
@@ -119,7 +119,7 @@ data_melt$events[ data_melt$events == "" ] <- "*"
 
 And the last step is to create the heat-map:
 
-```{r message=FALSE, fig.width=10, fig.height=5}
+```R
 ggplot( data_melt, aes( x = Day, y = Month, fill = events ) ) + geom_tile() +
   theme_bw() +  scale_x_continuous( breaks = 1:31 ) +
   scale_fill_manual(values = color_events ) +

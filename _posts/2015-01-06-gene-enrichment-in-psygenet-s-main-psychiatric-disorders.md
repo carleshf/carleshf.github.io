@@ -16,7 +16,7 @@ tags:
 
 [PsyGeNET](http://psygenet.org) is a database that integrates information on psychiatric disorders and their genes (check its *About* page for more information). The current version of the database centered the information of three main psychiatric disorders: **Alcoholism**, **Depression** and **Cocaine-Related-Disorders**.
 
-Currently the author of **PsyGeNET**, [Alba Gutiérrez](http://grib.imim.es/research/integrative-biomedical-informatics/people.html?LAB=1), and me are developing an R package (`PsyGeNET2R`) to query the information stored into the database and to perform some analysis using this information. We thought that could be a good idea to perform an enrichment analysis on the three main psychiatric disorders given a list of genes of interest.
+Currently the author of **PsyGeNET**, [Alba Gutiérrez](http://dbmi.hms.harvard.edu/person/postdoctoral-fellows/alba-gutierrez), and me are developing an R package (`PsyGeNET2R`) to query the information stored into the database and to perform some analysis using this information. We thought that could be a good idea to perform an enrichment analysis on the three main psychiatric disorders given a list of genes of interest.
 
 Using the **PsyGeNET**'s browser we can get the following code to download the stored data:
 

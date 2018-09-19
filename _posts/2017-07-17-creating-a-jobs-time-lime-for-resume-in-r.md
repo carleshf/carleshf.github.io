@@ -7,7 +7,7 @@ title: Creating a jobs time-lime for resume in R
 Let's say we define a `data.frame` with the jobs I've got from 2008 to 2017:
 
 
-```{r}
+```R
 jobs <- data.frame(
   employer    = c( "GICO", "TES", "UAB", "IFAE", "ISGlobal" ),
   year_start  = as.Date( c( "2008-07-01", "2009-11-01", "2010-09-01", "2011-07-01", "2013-09-01" ) ),

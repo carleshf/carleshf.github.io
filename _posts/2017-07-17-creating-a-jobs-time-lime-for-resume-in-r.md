@@ -1,12 +1,7 @@
 ---
+published: true
+layout: post
 title: Creating a jobs time-lime for resume in R
-author: Carles Hernandez-Ferrer
-date: '2017-07-17'
-slug: creating-a-jobs-time-lime-for-resume-in-r
-categories:
-  - R
-tags:
-  - plot
 ---
 
 Let's say we define a `data.frame` with the jobs I've got from 2008 to 2017:

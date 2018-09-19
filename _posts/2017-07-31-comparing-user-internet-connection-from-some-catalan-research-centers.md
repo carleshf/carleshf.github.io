@@ -11,7 +11,7 @@ tags:
 
 Using the same technique seen in the old post "*Comparing ping time between connections*" I asked some colleges to run the following command in their research centers.
 
-```{bash, eval=FALSE}
+```bash
 ping www.google.com -c 200 > ping_google.txt
 ```
 
@@ -70,7 +70,7 @@ qmap( "Barcelona", maptype = "toner-lite", zoom = 12, source = "stamen" ) +
     geom_point( data = science, aes( x = lat, y = lon ), 
                 col = "orange", alpha = 0.4, size = 7 )
 ```
-[Map with the location of the Catalan research centers]({{baseurl}}/assests/catalan-research-centers-map.png)
+![Map with the location of the Catalan research centers]({{baseurl}}/assests/catalan-research-centers-map.png)
 
 
 An the following creates a leaf-plot with both download and upload speed. The `grobs` objects from `ggplot2` are save in variables to create a panel joint with the line-plot created before.

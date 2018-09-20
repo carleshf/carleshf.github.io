@@ -99,7 +99,7 @@ published: true
     }
 </script>
 
-<div id="interests" style="width: 900px; height: 500px;"></div>
+<div id="interests" style="width: 200px; height: 200px;"></div>
 
 * Software Development
 * Bioinformatics

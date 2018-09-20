@@ -26,3 +26,12 @@ published: true
 
 ## Interests
 ![Interests - Bubble]({{baseurl}}/assets/interests.png)
+
+* Software Development
+* Bioinformatics
+* Data Visualization
+* Public Health
+* Omic Data Analysis
+* Environmental Epidemiology
+* Information Retrieval
+* R, python

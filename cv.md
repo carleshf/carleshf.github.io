@@ -13,7 +13,7 @@ published: true
 * Internship / _Barcelona Institute for Global Health_ / Feb 2013 - Sep 2013
 * Software Developer / _Institute of High Energy Physics_ / Sep 2011 - Aug 2012
 * Internship / _Institute of High Energy Physics_ / Jun 2011 - Aug 2011
-* Teaching Assistant / _Universitat Autonoma de Barcelona_ / Sep 2010 - Jun 2011,
+* Teaching Assistant / _Universitat Autonoma de Barcelona_ / Sep 2010 - Jun 2011
 * Full Stack Developer / _Universitat Autonoma de Barcelona_ / Nov 2009 - Jul 2010
 * Full Stack Developer (Jr) / _GICO Sistemas de Gestion_ / Jul 2008 - Oct 2009
 

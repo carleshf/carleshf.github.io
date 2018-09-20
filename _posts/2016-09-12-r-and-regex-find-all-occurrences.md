@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: R and regex: find all occurrences
+title: R and regex - find all occurrences
 ---
 
 In R there are many functions that work with a pattern written as a regular expression. Today I needed to deal with one of these functions: `str_locate_all` ([doc](http://www.rdocumentation.org/packages/stringr/versions/1.1.0/topics/str_locate)) from `stringr`

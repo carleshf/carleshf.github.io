@@ -136,7 +136,7 @@ To implement this option I have used the assemblyes called `Mono.Cecil` and `Mon
 
 ## Sources
 
-VSLCompiler has been a little private project used to study for the subject called _Compilers 1_ (within Computer Science degree at Universitat Autònoma de Barcelona). Now I uploaded it to bitbucket and I will make it a "public project". <del>I'm gonna create a page for the VSLCompiler here, in the blog, and I'm gonna post there the URL to bitbucket's project, also the release version and a "to do list" for future versions.</del>
+VSLCompiler has been a little private project used to study for the subject called _Compilers 1_ (within Computer Science degree at Universitat Autònoma de Barcelona). Now I uploaded it to gitlab and I will make it a "public project". <del>I'm gonna create a page for the VSLCompiler here, in the blog, and I'm gonna post there the URL to gitlab's project, also the release version and a "to do list" for future versions.</del>
 
 
 * [Here](https://gitlab.com/carleshf/vslcompiler/tree/master) you have the web page of VSLCompiler at gitlab.

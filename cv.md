@@ -6,7 +6,7 @@ published: true
 ---
 
 ## Professional experience
-![Professional experience - Timeline](professional_experience.png)
+![Professional experience - Timeline]({{baseurl}}/assets/professional_experience.png)
 
 * Bioinformatic Analyst / _Boston Children's Hospital_ / Feb 2018 - PRESENT
 * Bioinformatic Analyst / _Barcelona Institute for Global Health_ / Nov 2013 - Jan 2018
@@ -18,8 +18,11 @@ published: true
 * Full Stack Developer (Jr) / _GICO Sistemas de Gestion_ / Jul 2008 - Oct 2009
 
 ## Education
-![Edication - Timeline](education.png)
+![Edication - Timeline]({{baseurl}}/assets/education.png)
 
 * PhD in Biomedicine / _Universitat Pompeu Fabra_ / 2017
 * MSc in Bioinformatics / _Universitat Autonoma de Barcelona_ / 2013
 * BSc in Computer Sciences / _Universitat Autonoma de Barcelona_ /  2012
+
+## Interests
+![Interests - Bubble]({{baseurl}}/assets/interests.png)

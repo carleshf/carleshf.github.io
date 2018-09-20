@@ -4,10 +4,9 @@ title: CV
 permalink: /cv/
 published: true
 ---
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 ## Professional experience
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <script type="text/javascript">
   google.charts.load("current", {packages:["timeline"]});
@@ -21,12 +20,12 @@ published: true
     dataTable.addColumn({ type: 'date', id: 'Start' });
     dataTable.addColumn({ type: 'date', id: 'End' });
     dataTable.addRows([
-        [ 'professional experience', 'GICO', new Date(2008, 07, 01), new Date(2009, 11, 01) ],
-        [ 'professional experience', 'TES', new Date(2009, 11, 01), new Date(2010, 08, 01) ],
-        [ 'professional experience', 'UAB', new Date(2010, 09, 01), new Date(2011, 07, 01) ],
-        [ 'professional experience', 'IFAE', new Date(2011, 07, 01), new Date(2012, 10, 01) ],
-        [ 'professional experience', 'ISGlobal', new Date(2013, 09, 01), new Date(2018, 02, 01) ],
-        [ 'professional experience', 'BCH', new Date(2018, 02, 01), new Date(2019, 02, 01) ],
+        [ 'Dates', 'GICO', new Date(2008, 07, 01), new Date(2009, 11, 01) ],
+        [ 'Dates', 'TES', new Date(2009, 11, 01), new Date(2010, 08, 01) ],
+        [ 'Dates', 'UAB', new Date(2010, 09, 01), new Date(2011, 07, 01) ],
+        [ 'Dates', 'IFAE', new Date(2011, 07, 01), new Date(2012, 10, 01) ],
+        [ 'Dates', 'ISGlobal', new Date(2013, 09, 01), new Date(2018, 02, 01) ],
+        [ 'Dates', 'BCH', new Date(2018, 02, 01), new Date(2019, 02, 01) ],
     ]);
 
     chart.draw(dataTable);
@@ -45,7 +44,30 @@ published: true
 * Full Stack Developer (Jr) / _GICO Sistemas de Gestion_ / Jul 2008 - Oct 2009
 
 ## Education
-![Edication - Timeline]({{baseurl}}/assets/education.png)
+
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var container = document.getElementById('education_chart');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Position' });
+    dataTable.addColumn({ type: 'string', id: 'Name' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+        [ 'Dates', 'BSc in Computer Sciences', new Date(2005, 05, 15), new Date(2012, 07, 01) ],
+        [ 'Dates', 'MSc in Bioinformatics', new Date(2012, 09, 15), new Date(2013, 09, 15) ],
+        [ 'Dates', 'PhD in Biomedicine', new Date(2013, 11, 01), new Date(2017, 11, 17) ],
+    ]);
+
+    chart.draw(dataTable);
+  }
+</script>
+
+<div id="education_chart" style="height: 200px;"></div>
 
 * PhD in Biomedicine / _Universitat Pompeu Fabra_ / 2017
 * MSc in Bioinformatics / _Universitat Autonoma de Barcelona_ / 2013

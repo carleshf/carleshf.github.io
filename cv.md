@@ -74,7 +74,32 @@ published: true
 * BSc in Computer Sciences / _Universitat Autonoma de Barcelona_ /  2012
 
 ## Interests
-![Interests - Bubble]({{baseurl}}/assets/interests.png)
+
+<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Software Development',       10],
+        ['Bioinformatics',              5],
+        ['Data Visualization',          4],
+        ['Public Health',               2],
+        ['Omic Data Analysis',          7],
+        ['python/R',                    7]
+    ]);
+
+    var options = {
+
+        pieHole: 0.4,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('interests'));
+    chart.draw(data, options);
+    }
+</script>
+
+<div id="interests" style="width: 900px; height: 500px;"></div>
 
 * Software Development
 * Bioinformatics

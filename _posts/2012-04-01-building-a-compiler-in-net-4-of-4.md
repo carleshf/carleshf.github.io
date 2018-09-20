@@ -7,7 +7,7 @@ title: Building a Compiler in .Net  (4 of 4)
 This post is part of a series of 4. Here you have the links to each one:
 
 * [Building a Compiler in .Net (1 of 4)]({{baseurl}}/building-a-compiler-in-net-1-of-4)
-* [Building a Compiler in .Net (2 of 4)]({{baseurl}}/building-a-compiler-in-net-2-of-4}})
+* [Building a Compiler in .Net (2 of 4)]({{baseurl}}/building-a-compiler-in-net-2-of-4)
 * [Building a Compiler in .Net (3 of 4)]({{baseurl}}/building-a-compiler-in-net-3-of-4)
 * __Building a Compiler in .Net (4 of 4)__
 

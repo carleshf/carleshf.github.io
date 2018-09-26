@@ -1,10 +1,10 @@
 ---
 layout: post
-published: true
+published: false
 title: Hack&Learn CTF Challange - Packet Analysis
 ---
 
-In this post, I am going to explain how I answered the three _Packet Analysis_ challenges from the Capture the Flach challenge proposed by [`Advoqt Academy`](https://www.advoqt.com). These challenges consisting in three blocks: the first set of four questions about basic understanding of [`Wireshark`](https://www.wireshark.org), and two blocks where we need to analyze two traces from [`Nmap`](https://nmap.org/).
+In this post, I am going to explain how I answered the three _Packet Analysis_ challenges from the Capture the Flag proposed by [`Advoqt Academy`](https://www.advoqt.com). These challenges consisting in three blocks: the first set of four questions about basic understanding of [`Wireshark`](https://www.wireshark.org), and two blocks where we need to analyze two traces from [`Nmap`](https://nmap.org/).
 
 ```
 ├── Packet Analysis

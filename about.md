@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-I am a Research Fellow / Bioinformatic Analyst at the Computational Health Informatics Program, located at [Boston Children’s Hospital](www.childrenshospital.org). My research interests include the study of the relations between environmental factors and internal omic perturbations, development of applications to integrate multiple layers of omic data-sets and web development of databases.
+I am a Research Fellow / Bioinformatic Analyst at the Computational Health Informatics Program, located at [Boston Children’s Hospital](https://www.childrenshospital.org). My research interests include the study of the relations between environmental factors and internal omic perturbations, development of applications to integrate multiple layers of omic data-sets and web development of databases.
 
 I am member of Dr. Kong’s group and I am currently working with the exogenous and endogenous exposures data-sets and their integration with gene expression of the [AutismExposome Project](http://autismexposome.org/).
 

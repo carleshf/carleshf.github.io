@@ -36,7 +36,7 @@ We can see the total number of captured packages at the bottom right corner of `
 
 We first need to remember what are the Class A IP addresses. Class A IP addresses, where the 1st bit is 0, encompass the range of 0.0.0.0 to 127.255.255.255. This class is for large networks and has 8 bits for network and 24 bits for hosts.
 
-Now, we can list all the IPs in the captured packages going to the menu `Statistics` and to the sub-menu `Endpoints`. and then move to tab `IPv4`
+Now, we can list all the IPs in the captured packages going to the menu `Statistics`, to the sub-menu `Endpoints` and then move to tab `IPv4`.
 
 ![Wireshark - IPs in captured session]({{baseurl}}/assets/wireshark101_02.png)
 

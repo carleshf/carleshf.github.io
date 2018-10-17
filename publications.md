@@ -7,7 +7,7 @@ published: true
 
 
 * [2018-09] _BMJ open_ Human Early Life Exposome (HELIX) study: a European population-based exposome cohort [10.1136/bmjopen-2017-021311](https://doi.org/10.1136/bmjopen-2017-021311)
-* [2018-09] _Bioinformatics_ **CTDquerier: a bioconductor R package for Comparative Toxicogenomics DatabaseTM data extraction, visualization and enrichment of environmental and toxicological studies** [10.1093/bioinformatics/bty326](https://doi.org/10.1093/bioinformatics/bty326)
+* [2018-09] _Bioinformatics_ **CTDquerier: a bioconductor R package for Comparative Toxicogenomics Database data extraction, visualization and enrichment of environmental and toxicological studies** [10.1093/bioinformatics/bty326](https://doi.org/10.1093/bioinformatics/bty326)
 * [2018-08] _Environ Sci Pollut Res Int._ A systemic approach to identify signaling pathways activated during short-term exposure to traffic-related urban air pollution from human blood [10.1007/s11356-018-3009-8](https://doi.org/10.1007/s11356-018-3009-8)
 * [2018-07] _bioRxiv_ WEScover: whole exome sequencing vs. gene panel testing [10.1101/367607](https://doi.org/10.1101/367607)
 * [2018-03] _PloS one_ Circulating miRNAs, isomiRs and small RNA clusters in human plasma and breast milk [10.1371/journal.pone.0193527](https://doi.org/10.1371/journal.pone.0193527)

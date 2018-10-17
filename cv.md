@@ -2,7 +2,7 @@
 layout: page
 title: CV
 permalink: /cv/
-published: true
+published: false
 ---
 
 ![Professional experience - Timeline]({{baseurl}}/assets/professional_experience.png)

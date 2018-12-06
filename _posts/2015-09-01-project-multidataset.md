@@ -9,7 +9,10 @@ description: "MultiDataSet is designed for integrating multi omics data sets and
 category: project
 author: carleshf
 externalLink: false
+image: https://carleshf.github.io/assets/portraits/multiple_datasets_coordination.png
+headerImage: true
 ---
+
 
 ## Summary
 

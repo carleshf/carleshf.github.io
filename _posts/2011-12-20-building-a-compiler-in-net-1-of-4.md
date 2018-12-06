@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Building a Compiler in .Net  (1 of 4)
 ---

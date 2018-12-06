@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Sorting a multidimensional array in PHP
 ---

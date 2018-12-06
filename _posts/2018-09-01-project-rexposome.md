@@ -9,7 +9,7 @@ description: "Set of two R packages developed to analyze exposome data and its i
 category: project
 author: carleshf
 externalLink: false
-image: {{baseurl}}/assets/portraits/correlation-wide.png
+image: https://carleshf.github.io/assets/portraits/correlation-wide.png
 headerImage: true
 ---
 

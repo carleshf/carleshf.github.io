@@ -9,7 +9,10 @@ description: "Shiny web application to explore the breadth of coverage per gene/
 category: project
 author: carleshf
 externalLink: false
+image: https://carleshf.github.io/assets/portraits/gnomAD_notch1.png
+headerImage: true
 ---
+
 
 ## Summary
 

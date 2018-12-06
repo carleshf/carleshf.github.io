@@ -5,11 +5,6 @@ category: blog
 title: Comparing 'user' Internet connection from some Catalan research centers
 author: Carles Hernandez-Ferrer
 date: '2017-07-31'
-categories:
-  - bioinformatics
-  - R
-tags:
-  - ping
 ---
 
 Using the same technique seen in the old post "*Comparing ping time between connections*" I asked some colleges to run the following command in their research centers.

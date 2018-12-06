@@ -21,10 +21,6 @@ The application is now running:
 
 * WEScover: [link](http://gnome.tchlab.org/WEScover/)
 
-The source code of this web app can be found at:
-
-* GitHub: [link](http://gnome.tchlab.org/WEScover/)
-
 The manuscript describing the tool and its aims is currently in **bioRxiv**:
 
 * bioRxiv: [link](https://www.biorxiv.org/content/early/2018/07/27/367607)

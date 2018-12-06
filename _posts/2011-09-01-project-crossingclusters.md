@@ -1,6 +1,6 @@
 ---
 published: true
-title: CrossingClusters
+title: "CrossingClusters"
 layout: post
 date: 2011-09-01 22:10
 projects: true

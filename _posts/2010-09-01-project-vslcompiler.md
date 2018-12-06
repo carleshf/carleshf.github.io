@@ -1,6 +1,6 @@
 ---
 published: true
-title: VSLcompiler
+title: "VSLcompiler"
 layout: post
 date: 2010-09-01 22:10
 #image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
@@ -9,7 +9,7 @@ projects: true
 hidden: true # don't count this post in blog pagination
 description: "Minimal expression of a compiler that translate "very simple language" to .net CIL code."
 category: project
-author: johndoe
+author: carleshf
 externalLink: false
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---

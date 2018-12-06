@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Test if file/directory exists in bash
 author: Carles Hernandez-Ferrer

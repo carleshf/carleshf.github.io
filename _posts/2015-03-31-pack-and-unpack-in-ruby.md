@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: pack and unpack in ruby
 ---

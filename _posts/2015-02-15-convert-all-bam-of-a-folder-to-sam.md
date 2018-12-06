@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Convert all .bam of a folder to .sam
 author: Carles Hernandez-Ferrer

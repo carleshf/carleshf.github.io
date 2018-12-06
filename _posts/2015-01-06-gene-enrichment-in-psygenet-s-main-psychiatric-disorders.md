@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Gene-Enrichment in PsyGeNET's Main-Psychiatric-Disorders
 author: Carles Hernandez-Ferrer

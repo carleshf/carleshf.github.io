@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Permutation and combination in ruby's arrays
 ---

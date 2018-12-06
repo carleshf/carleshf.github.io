@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: GNU/Linux alias with arguments
 author: Carles Hernandez-Ferrer

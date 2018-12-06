@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Add new methods to existing classes in ruby
 ---

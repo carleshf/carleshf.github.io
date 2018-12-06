@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: TCGA Barcodes Summary
 ---

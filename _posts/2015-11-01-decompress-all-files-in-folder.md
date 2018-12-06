@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Decompress all files in folder
 author: Carles Hernandez-Ferrer

@@ -1,5 +1,6 @@
 ---
 published: true
+category: blog
 layout: post
 title: Playing with TCGA .CEL files and TCGA Barcodes
 author: Carles Hernandez-Ferrer

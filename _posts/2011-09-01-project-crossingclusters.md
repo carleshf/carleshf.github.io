@@ -9,6 +9,8 @@ description: "Microarray data analysis based on clustering of samples and gene c
 category: project
 author: carleshf
 externalLink: false
+image: https://carleshf.github.io/assets/portraits/PCOPs.png
+headerImage: true
 ---
 
 ## Summary

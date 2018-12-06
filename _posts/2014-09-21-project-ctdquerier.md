@@ -9,7 +9,10 @@ description: "R package to query the Comparative Toxicogenomics Database from R 
 category: project
 author: carleshf
 externalLink: false
+image: https://carleshf.github.io/assets/portraits/gene_chemical_diseases_query.png
+headerImage: true
 ---
+
 
 ## Summary
 

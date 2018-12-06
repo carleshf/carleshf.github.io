@@ -9,8 +9,6 @@ description: "Set of tools to pre-process Affymetrix .CEL files from GenomeWide 
 category: project
 author: carleshf
 externalLink: false
-image: https://carleshf.github.io/assets/portraits/chromosomal_mosaicism.png
-headerImage: true
 ---
 
 

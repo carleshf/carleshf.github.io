@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Unload (detach) a loaded R package
 ---
 

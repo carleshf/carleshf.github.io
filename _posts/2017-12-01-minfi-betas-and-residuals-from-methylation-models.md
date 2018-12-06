@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: minfi betas and residuals from methylation models
 ---
 

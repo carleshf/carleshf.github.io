@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Extract paired-end reads from (NCBI) SRA files
 author: Carles Hernandez-Ferrer
 date: '2016-01-24'

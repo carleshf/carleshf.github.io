@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+category: blog
 title: Exploting XML data from Human Metabolome Data Base
 ---
 

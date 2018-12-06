@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Cross-referencing between different files with LaTeX
 ---
 

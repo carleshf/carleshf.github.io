@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Microsoft Core Fonts in Ubuntu
 ---
 

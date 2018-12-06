@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Exploring public NHANES data using Rcupcake
 ---
 

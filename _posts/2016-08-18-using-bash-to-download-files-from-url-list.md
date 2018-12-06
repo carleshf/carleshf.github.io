@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Using bash to download files from url list
 ---
 

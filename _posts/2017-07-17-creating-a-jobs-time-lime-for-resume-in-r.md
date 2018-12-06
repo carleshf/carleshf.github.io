@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Creating a jobs time-lime for resume in R
 ---
 

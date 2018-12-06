@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Change the title of Table of Contents (ToC) in LaTeX
 ---
 

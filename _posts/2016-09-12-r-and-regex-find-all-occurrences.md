@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: R and regex - find all occurrences
 ---
 

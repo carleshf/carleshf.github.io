@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: practical ggplot2 - Creating a chromosome karyotype plot
 ---
 

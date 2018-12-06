@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Spell-checking in Sublime Text 3
 ---
 

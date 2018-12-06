@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Check if value exists in another column of a Microsoft Excel document
 ---
 

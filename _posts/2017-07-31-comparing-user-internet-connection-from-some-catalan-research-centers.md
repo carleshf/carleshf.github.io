@@ -1,4 +1,7 @@
 ---
+published: true
+layout: post
+category: blog
 title: Comparing 'user' Internet connection from some Catalan research centers
 author: Carles Hernandez-Ferrer
 date: '2017-07-31'

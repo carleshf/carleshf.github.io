@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+category: blog
 title: Change key for toggle comment in Sublime Text 3
 ---
 

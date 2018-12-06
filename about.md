@@ -4,43 +4,14 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I am a Research Fellow / Bioinformatic Analyst at the Computational Health Informatics Program, located at [Boston Children’s Hospital](https://www.childrenshospital.org). My research interests include the study of the relations between environmental factors and internal omic perturbations, development of applications to integrate multiple layers of omic data-sets and web development of databases.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I am member of Dr. Kong’s group and I am currently working with the exogenous and endogenous exposures data-sets and their integration with gene expression of the [AutismExposome Project](http://autismexposome.org/).
 
-<h2>Skills</h2>
+I still collaborate with the [Bioinformatic Research Group in Epidemiology](http://brge.isglobal.org/) from [Barcelona Institute for Global Health](https://www.isglobal.org/) were I support the omic data analysis in the [European project HELIX](http://www.projecthelix.eu/).
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+### Contact
 
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+* __Location__: Enders Research Laboratory; Boston Children's Hospital; 300 Longwood Ave, Boston, MA 02115; USA
+* __E-mail__: carles.hernandez-ferrer/@\childrens.harvard.edu
+* __Phone number__: 617-355-2933

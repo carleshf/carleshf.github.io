@@ -19,7 +19,7 @@ This package contains base classes for `MEAL` and `omicRexposome` packages.
 
 ## Results
 
-This project published an R package in Biocondcutor:
+This project published an R package in Bioconductor:
 
 * Bioconductor: [link](https://bioconductor.org/packages/release/bioc/html/MultiDataSet.html)
 * GitHub: [link](https://github.com/isglobal-brge/MultiDataSet)

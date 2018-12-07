@@ -2,7 +2,7 @@
 published: true
 title: "WEScover"
 layout: post
-date: 2017-09-01 22:10
+date: 2018-07-18 22:10
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Shiny web application to explore the breadth of coverage per gene/exon obtained using WES technology in 1KGP."

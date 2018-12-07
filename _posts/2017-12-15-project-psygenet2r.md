@@ -9,8 +9,6 @@ description: "R package to query the PsyGeNET database from R session and use it
 category: project
 author: carleshf
 externalLink: false
-image: https://carleshf.github.io/assets/portraits/gene_chemical_diseases_query.png
-headerImage: true
 ---
 
 

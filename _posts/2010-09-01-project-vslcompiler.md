@@ -5,7 +5,7 @@ layout: post
 date: 2010-09-01 22:10
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "Minimal expression of a compiler that translate "very simple language" to .net CIL code."
+description: "Minimal expression of a compiler that translate 'very simple language' to .net CIL code."
 category: project
 author: carleshf
 externalLink: false

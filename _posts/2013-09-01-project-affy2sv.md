@@ -29,10 +29,9 @@ The project resulted in a publication at **BMC Bioinformatics**:
 
 *Carles Hernandez-Ferrer*, Ines Quintela Garcia, Katharina Danielski, Angel Carracedo, Luis A. Perez-Jurado and Juan R. Gonzalez
 
-BMC Bioinformatics 2015 / doi:10.1186/s12859-015-0608-y /
-[(Open Access)](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0608-y)
+BMC Bioinformatics 2015 / doi:10.1186/s12859-015-0608-y / [(Open Access)](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0608-y)
 
-The report of the project and the slides used in the academic defense follows:
+The report of the project and the slides used in the academic defense follows of my master's project:
 
 * Report: [link](https://www.dropbox.com/s/u9qvr34efk4hafr/thesis.pdf)
 * Slides: [link](https://www.dropbox.com/s/iap2bl2w5a5xo5f/MTChernandez_WIN.pdf)

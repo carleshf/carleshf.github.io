@@ -33,5 +33,4 @@ And with a publication in **BMC Bioinformatics**:
 
 *Carles Hernandez-Ferrer*, Carlos Ruiz-Arenas, Alba Beltran-Gomila and Juan R. Gonzalez
 
-Bioinformatics 2018 / doi:10.1186/s12859-016-1455-1 /
-[(Open Access)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1455-1)
+Bioinformatics 2018 / doi:10.1186/s12859-016-1455-1 / [(Open Access)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1455-1)

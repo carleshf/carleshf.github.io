@@ -2,7 +2,7 @@
 published: true
 title: "CTDquerier"
 layout: post
-date: 2014-09-21 22:10
+date: 2018-04-24 22:10
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "R package to query the Comparative Toxicogenomics Database from R session and use its data for downstream or enrichment analysis."
@@ -25,9 +25,8 @@ This project published an R package in Bioconductor:
 * Bioconductor: [link](https://bioconductor.org/packages/release/bioc/html/CTDquerier.html)
 * GitHub: [link](https://github.com/isglobal-brge/CTDquerier)
 
-And with a publication in **Bioinformatics**:
+And with a publication in **Bioinformatics** [(Open Access)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty326/4983065):
 
 > CTDquerier: A Bioconductor R package for Comparative Toxicogenomics DatabaseTM data extraction, visualization and enrichment of environmental and toxicological studies.
 
-*Carles Hernandez-Ferrer* and Juan R. Gonzalez
-Bioinformatics 2018 / doi:10.1093/bioinformatics/bty326 / [(Open Access)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty326/4983065)
+*Carles Hernandez-Ferrer* and Juan R. Gonzalez / Bioinformatics 2018 / doi:10.1093/bioinformatics/bty326

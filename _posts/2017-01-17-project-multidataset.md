@@ -2,7 +2,7 @@
 published: true
 title: "MultiDataSet"
 layout: post
-date: 2015-09-01 22:10
+date: 2017-01-17 08:00
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "MultiDataSet is designed for integrating multi omics data sets and ResultSet is a container for omics results."
@@ -27,10 +27,8 @@ This project published an R package in Bioconductor:
 * Bioconductor: [link](https://bioconductor.org/packages/release/bioc/html/MultiDataSet.html)
 * GitHub: [link](https://github.com/isglobal-brge/MultiDataSet)
 
-And with a publication in **BMC Bioinformatics**:
+And with a publication in **BMC Bioinformatics** [(Open Access)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1455-1):
 
 > MultiDataSet: an R package for encapsulating multiple data sets with application to omic data integration
 
-*Carles Hernandez-Ferrer*, Carlos Ruiz-Arenas, Alba Beltran-Gomila and Juan R. Gonzalez
-
-Bioinformatics 2018 / doi:10.1186/s12859-016-1455-1 / [(Open Access)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1455-1)
+*Carles Hernandez-Ferrer*, Carlos Ruiz-Arenas, Alba Beltran-Gomila and Juan R. Gonzalez / BMC Bioinformatics 2017 / doi:10.1186/s12859-016-1455-1

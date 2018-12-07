@@ -2,7 +2,7 @@
 published: true
 title: "affy2sv"
 layout: post
-date: 2013-09-01 22:10
+date: 2015-05-20 22:10
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Set of tools to pre-process Affymetrix .CEL files from GenomeWide 5.0-6.0, Axiom and CytoScan HD/750K."
@@ -23,13 +23,11 @@ The R package is available at Bitbucket:
 * Repository: [link](https://bitbucket.org/brge/affy2sv)
 * Wiki: [link](https://bitbucket.org/brge/affy2sv/wiki/Home)
 
-The project resulted in a publication at **BMC Bioinformatics**:
+The project resulted in a publication at **BMC Bioinformatics** [(Open Access)](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0608-y):
 
 > affy2sv: an R package to pre-process Affymetrix CytoScan HD and 750K arrays for SNP, CNV, inversion and mosaicism calling
 
-*Carles Hernandez-Ferrer*, Ines Quintela Garcia, Katharina Danielski, Angel Carracedo, Luis A. Perez-Jurado and Juan R. Gonzalez
-
-BMC Bioinformatics 2015 / doi:10.1186/s12859-015-0608-y / [(Open Access)](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0608-y)
+*Carles Hernandez-Ferrer*, Ines Quintela Garcia, Katharina Danielski, Angel Carracedo, Luis A. Perez-Jurado and Juan R. Gonzalez / BMC Bioinformatics 2015 / doi:10.1186/s12859-015-0608-y
 
 The report of the project and the slides used in the academic defense follows of my master's project:
 

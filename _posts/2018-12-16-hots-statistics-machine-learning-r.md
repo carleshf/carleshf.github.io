@@ -1,6 +1,7 @@
 ---
-layout: post
 published: true
+category: blog
+layout: post
 title: Inspecting HOTS statistics with machine learning (R version)
 ---
 

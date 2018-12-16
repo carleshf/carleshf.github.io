@@ -5,12 +5,12 @@ layout: post
 title: Inspecting HOTS statistics with machine learning (R version)
 ---
 
-# Gathering data
+## Gathering data
 
 I download the data from [HOTSlogs](https://www.hotslogs.com/Info/API). Three tables are provided:
 
 
-1. `HeroIDAndMapID.csv`: With the _name_ and _id_ of each hero and map.
+* `HeroIDAndMapID.csv`: With the _name_ and _id_ of each hero and map.
 
 ```r
 head(heroes_maps)
@@ -25,7 +25,7 @@ head(heroes_maps)
 6  5 Brightwing    Support   Healer
 ```
 
-2. `Replays.csv`: With the _id_ of each replay indicating the type and time of the game and linking it to the map.
+* `Replays.csv`: With the _id_ of each replay indicating the type and time of the game and linking it to the map.
 
 ```r
 head(replays, n=3)
@@ -41,7 +41,7 @@ head(replays, n=3)
 3 9/28/2018 7:36:49 PM
 ```
 
-3. `ReplayCharacters.csv`: With the characteristics of each hero for each replay.
+* `ReplayCharacters.csv`: With the characteristics of each hero for each replay.
 
 ```r
 head(replay_characters, n=3)
@@ -61,9 +61,9 @@ head(replay_characters, n=3)
 3                    6126        00:03:50                  0
 ```
 
-# Exploring data
+## Exploring data
 
-## Table for heroes
+### Table for heroes
 
 The table `heroes_maps` contains the ID and name for both available heroes and for playable maps. We split this table in two, starting for heroes.
 
@@ -87,7 +87,7 @@ as.character(unique(heroes$SubGroup))
  [9] "Ambusher"         "Support" 
 ```
 
-## Filtering replays to get 'quick match'
+### Filtering replays to get 'quick match'
 
 I will focus on the type of game '_quick match_'. To this we will filter the table for replays to get the replays for the type '_quick match_'.
 
@@ -99,7 +99,7 @@ table(replays[ , 2])
 874802 151781 251834 113522 
 ```
 
-# Describing heroes statistics
+## Describing heroes statistics
 
 * Variables that are categorical: `Is.Auto.Select`, `HeroID`, `Is.Winner`
 * Variables that are continuous: `Hero.Level`, `MMR.Before`, `In.Game.Level`, `Takedowns`, `Killing.Blows`, `Assists`, `Deaths`, `Highest.Kill.Streak`, `Hero.Damage`, `Siege.Damage`, `Healing`, `Self.Healing`, `Damage.Taken`, `Experience.Contribution`, `Time.Spent.Dead`, `Merc.Camp.Captures`
@@ -141,7 +141,7 @@ head(quick_match_characters$Time.Spent.Dead, n=10)
  [8] "00:00:00" "00:00:41" "00:01:30"
 ```
 
-## Remove unclassified heroes
+### Remove unclassified heroes
 
 There are heroes that were not properly classified. These are removed:
 ```r
@@ -150,7 +150,7 @@ sum(quick_match_characters$HeroGroup == "")
 sum(quick_match_characters$HeroSubGroup == "")
 ```
 
-## Subset table for analysis
+### Subset table for analysis
 
 Then, I selected the top representative of each `HeroGroup`:
 
@@ -179,14 +179,14 @@ quick_match_hero_group <- quick_match_characters %>%
    do(head(., n=1000))
 ```
 
-#  Analysis
+## Analysis
 
 In this first exploratory analysis I used to approaches:
 
 1. Principal Component Analysis (PCA) to cluster the heroes.
 2. Ensemble learning to find the best method to predict the hero based in their characteristics.
 
-## Principal Component Analysis
+### Principal Component Analysis
 
 I used `prcomp` to apply a principal components analysis by a singular value decomposition of the data matrix , centered and scaled.
 
@@ -199,11 +199,11 @@ Component one and component two shows an arch, that it may be [taken into accoun
 
 ![PCA on 4000 HOTS hero characteristics]({{baseurl}}/assets/hots_pca_001.png)
 
-## Ensemble learning
+### Ensemble learning
 
 I created a list of 80% of the original data-set for training and 20% of the data for validation. Each algorithm using 10-fold cross validation.
 
-### Linear regression analysis
+#### Linear regression analysis
 
 ```{r}
 set.seed(7) 
@@ -211,7 +211,7 @@ fit.lda <- train(HeroGroup~., data=training, method="lda",
   metric=metric, trControl=control)
 ```
 
-### Logistic regression analysis
+#### Logistic regression analysis
 
 ```{r, message=FALSE, warning=FALSE}
 set.seed(7) 
@@ -219,7 +219,7 @@ fit.glm <- train(HeroGroup~., data=training, method="multinom",
   metric=metric, trControl=control)
 ```
 
-### kNN analysis
+#### kNN analysis
 
 ```{r}
 set.seed(7)
@@ -227,7 +227,7 @@ fit.knn <- train(HeroGroup~., data=training, method="knn",
   metric=metric, trControl=control) 
 ```
 
-### Random Forest 
+#### Random Forest 
 
 ```{r, eval=FALSE}
 set.seed(7) 
@@ -235,7 +235,7 @@ fit.rf <- train(HeroGroup~., data=training, method="rf",
   metric=metric, trControl=control) 
 ```
 
-### Summarize accuracy of models 
+#### Summarize accuracy of models 
 
 ![Accuracy of ensemble learning on 4000 HOTS hero characteristics]({{baseurl}}/assets/hots_accuracy_001.png)
 

@@ -205,7 +205,7 @@ I created a list of 80% of the original data-set for training and 20% of the dat
 
 #### Linear regression analysis
 
-```{r}
+```r
 set.seed(7) 
 fit.lda <- train(HeroGroup~., data=training, method="lda", 
   metric=metric, trControl=control)
@@ -213,7 +213,7 @@ fit.lda <- train(HeroGroup~., data=training, method="lda",
 
 #### Logistic regression analysis
 
-```{r, message=FALSE, warning=FALSE}
+```r
 set.seed(7) 
 fit.glm <- train(HeroGroup~., data=training, method="multinom",
   metric=metric, trControl=control)
@@ -221,7 +221,7 @@ fit.glm <- train(HeroGroup~., data=training, method="multinom",
 
 #### kNN analysis
 
-```{r}
+```r
 set.seed(7)
 fit.knn <- train(HeroGroup~., data=training, method="knn", 
   metric=metric, trControl=control) 
@@ -229,7 +229,7 @@ fit.knn <- train(HeroGroup~., data=training, method="knn",
 
 #### Random Forest 
 
-```{r, eval=FALSE}
+```r
 set.seed(7) 
 fit.rf <- train(HeroGroup~., data=training, method="rf", 
   metric=metric, trControl=control) 
@@ -240,12 +240,12 @@ fit.rf <- train(HeroGroup~., data=training, method="rf",
 ![Accuracy of ensemble learning on 4000 HOTS hero characteristics]({{baseurl}}/assets/hots_accuracy_001.png)
 
 
-```{r, eval=FALSE}
+```r
 results <- resamples(list(lda=fit.lda, glm=fit.glm, knn=fit.knn, rf=fit.rf))
 summary(results) 
 ```
 
-In terms of accuracy, knn was the ones with the lowest performance (range: 0.57-0.64) and logistic-glm (_Penalized Multinomial Regression_) with the highest (0.73-0.79).
+In terms of accuracy, kNN was the ones with the lowest performance (range: 0.57-0.64) and logistic-glm (_Penalized Multinomial Regression_) with the highest (0.73-0.79).
 
 Then, I applied the logistic-glm on the validating data-set to obtain the confusion matrix:
 

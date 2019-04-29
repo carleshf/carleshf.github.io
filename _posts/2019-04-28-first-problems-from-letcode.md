@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: blog
 layout: post
 title: First problems from LetCode
@@ -11,7 +11,7 @@ As we can read from [this Quora answer](https://www.quora.com/What-is-Leetcode):
 
  > The purpose of LeetCode is to provide you hands-on training on real coding interview questions. The Online Judge gives you immediate feedback on the correctness and efficiency of your algorithm which facilitates a great learning experience.
 
-So, for the few next days I did a couple of the problems tagged as `easy` in the platform. Here the ones I did until April 30th.
+So, for the few next days I did a couple of the problems tagged as `easy` and `medium` in the platform. Here the ones I did until April 30th.
 
 ## 771. Jewels and Stones
 
@@ -104,3 +104,47 @@ var reverseString = function(s) {
   - Stats for my solution (2019-04-28):
     - Runtime: 124 ms, faster than 99.11% of JavaScript online submissions for Reverse String.
     - Memory Usage: 46.7 MB, less than 81.06% of JavaScript online submissions for Reverse String.
+
+## 2. Add Two Numbers
+
+  - Link: [https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)
+  - Description: You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+  - My solution:
+
+```
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+var addTwoNumbers = function(l1, l2) {
+    let rst = new ListNode(0);
+    let cur = rst;
+    let car = 0;
+    while (l1 != null || l2 != null) {
+        let v1 = l1 == null ? 0 : l1.val
+        let v2 = l2 == null ? 0 : l2.val
+        let val = v1 + v2 + car;
+        car = Math.floor(val / 10);
+        cur.next = new ListNode(val % 10);
+        cur = cur.next;
+        l1 = l1 == null ? null : l1.next;
+        l2 = l2 == null ? null : l2.next;
+    }
+    if(car != 0) {
+        cur.next = new ListNode(car);
+    }
+    return(rst.next);
+};
+```
+
+  - Stats for my solution (2019-04-20):
+    - Runtime: 128 ms, faster than 73.59% of JavaScript online submissions for Add Two Numbers.
+    - Memory Usage: 38.2 MB, less than 88.89% of JavaScript online submissions for Add Two Numbers.

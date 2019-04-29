@@ -2,10 +2,10 @@
 published: true
 category: blog
 layout: post
-title: First problems from LetCode
+title: First problems from LeetCode
 ---
 
-During this month I have been doing some research about the interview process in Apple, and from _Glassdoor_ answers I discovered [`LetCode`](https://leetcode.com).
+During this month I have been doing some research about the interview process in Apple, and from _Glassdoor_ answers I discovered [`LeetCode`](https://leetcode.com).
 
 As we can read from [this Quora answer](https://www.quora.com/What-is-Leetcode):
 
@@ -145,6 +145,52 @@ var addTwoNumbers = function(l1, l2) {
 };
 ```
 
-  - Stats for my solution (2019-04-20):
+  - Stats for my solution (2019-04-29):
     - Runtime: 128 ms, faster than 73.59% of JavaScript online submissions for Add Two Numbers.
     - Memory Usage: 38.2 MB, less than 88.89% of JavaScript online submissions for Add Two Numbers.
+
+
+## 8. String to Integer (atoi)
+
+  - Link: [https://leetcode.com/problems/string-to-integer-atoi/](https://leetcode.com/problems/string-to-integer-atoi/)
+  - Description: Implement `atoi` which converts a string to an integer. The function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value. The string can contain additional characters after those that form the integral number, which are ignored and have no effect on the behavior of this function. If the first sequence of non-whitespace characters in `str` is not a valid integral number, or if no such sequence exists because either `str` is empty or it contains only whitespace characters, no conversion is performed. If no valid conversion could be performed, a zero value is returned. **Note**: Only the space character `' '` is considered as whitespace character. Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [`−2^31`,  `2^31 − 1`]. If the numerical value is out of the range of representable values, `INT_MAX` (`2^31 − 1`) or INT_MIN (`−2^31`) is returned.
+  - My solution:
+
+```
+/**
+ * @param {string} str
+ * @return {number}
+ */
+var myAtoi = function(str) {
+    let values = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    str = str.replace(/^\s+|\s+$/g, '').split('');
+    if(!values.includes(str[0]) && str[0] != '-' && str[0] != '+') {
+        return(0);
+    } else {
+        let str2 = [];
+        for(ii = 0; ii < str.length; ++ii) {
+            if(values.includes(str[ii]) || (ii == 0 && str[ii] == '-')) {
+                str2.push(str[ii])
+            } else if (ii == 0 && str[ii] == '+') {
+            } else {
+                break;
+            }
+        }
+        if(str2.length == 0 | (str2.length == 1 && !values.includes(str2[0]))) {
+            return(0);
+        }
+        str2 = parseInt(str2.join(''));
+        if(str2 > 2147483647) {
+            return(2147483647);
+        } else if(str2 < -2147483648) {
+           return(-2147483648);
+        } else {
+            return(str2);
+        }
+    }
+};
+```
+
+  - Stats for my solution (2019-04-29):
+    - Runtime: 108 ms, faster than 17.90% of JavaScript online submissions for String to Integer (atoi).
+    - Memory Usage: 36.7 MB, less than 22.76% of JavaScript online submissions for String to Integer (atoi).

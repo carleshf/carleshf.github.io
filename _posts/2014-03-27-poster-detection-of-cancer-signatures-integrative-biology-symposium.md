@@ -1,25 +1,25 @@
 ---
-published: true
 title: "Detection of cancer signatures by integrating different features from omics data combining multi-block and path modelling methods"
-layout: post
 date: 2014-03-27 00:00
-projects: true
-hidden: true # don't count this post in blog pagination
+event: "Integrative and Computational Biology Joint Symposium"
+diffusion: true
 category: poster
+published: true
+hidden: true # don't count this post in blog pagination
 author: carleshf
 externalLink: false
+layout: communication
 ---
 
-
-
-## Detection of cancer signatures by integrating different features from omics data combining multi-block and path modelling methods
+### Authors
 
 ___Juan R. Gonzalez,___ _Mikel Esnaola, Alejando Caceres, Carles Hernandez-Ferrer, Marcos Lopez-Sanchez Luis A. Perez-Jurado_
 
 ### Integrative and Computational Biology Joint Symposium 
 
- - _Date_: 27 and 28 of March 2014
- - _[Program]({{baseurl}}/assets/integrative_and_computational_biology_joint_symposium.pdf)_
+ - _Date of the event_: 27 and 28 of March 2014
+ - _Presentation date_: 27 of March 2014
+ - _[Program of the event]({{baseurl}}/assets/integrative_and_computational_biology_joint_symposium.pdf)_
 
 ### Abstract
 

@@ -16,7 +16,7 @@ resume: false
 resume-external: false
 #resume-url: https://google.com/?q=my+resume
 
-url: http://carleshf.github.io
+#url: http://carleshf.github.io
 baseurl: http://carleshf.github.io
 # your url: http://USERNAME.github.io
 
@@ -79,6 +79,7 @@ width: normal
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
+dissemination: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true

@@ -72,5 +72,14 @@ From a total of 6 projects "TAKE IT!" won the 1st position of the contest! Here 
 
 After many years outside of the (pure) software development and hackathon world I really enjoyed participating in the event.
 
-The team was amazing. All of us was able to contribute to the idea, as well as to its implementation.
+The organization was amazing, and the Humana's team provided feedback on our idea as well as mentored us to make it happen.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This event was a success! Thanks so much to all the participants who came out. Thanks sooo much <a href="https://twitter.com/jcramos426?ref_src=twsrc%5Etfw">@jcramos426</a> for all your hard work and organization. <a href="https://t.co/3W8K4YJHgX">https://t.co/3W8K4YJHgX</a></p>&mdash; Jason McKee (@mckeejm) <a href="https://twitter.com/mckeejm/status/1135312049754517504?ref_src=twsrc%5Etfw">June 2, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+The team was amazing. All of us was able to contribute to the idea, as well as to its implementation. Benjamin dealt with the android application, In-Hee designed and filled the data-base as well as the script to work with FDA's API, Francisco was in charge of the design of the web application, and I worked on the server-side with python and flask.
+
+Yeah... when we repeat?
+
 

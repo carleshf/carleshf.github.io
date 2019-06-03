@@ -80,6 +80,6 @@ The organization was amazing, and the Humana's team provided feedback on our ide
 
 The team was amazing. All of us was able to contribute to the idea, as well as to its implementation. Benjamin dealt with the android application, In-Hee designed and filled the data-base as well as the script to work with FDA's API, Francisco was in charge of the design of the web application, and I worked on the server-side with python and flask.
 
-Yeah... when we repeat?
+Yeah... let's repeat?
 
 

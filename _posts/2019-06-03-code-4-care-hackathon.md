@@ -24,7 +24,7 @@ We started brainstorming and focused on developing a web portal aiming to become
 
 ## Implementation
 
-We split the tasks: Benjamin was in charge of the push notification system, In-hee of the database architecture and data generation, Francisco of the design of the web application, and I was in charge of the architecture and server side code.
+We split the tasks: Benjamin dealt with the android application, In-Hee designed and filled the data-base as well as the script to work with FDA's API, Francisco was in charge of the design of the web application, and I worked on the server-side with python and flask.
 
 We used the free account of [heroku](https://www.heroku.com/) to create an app with python 3.7 as back-end language running [gunicorn](https://gunicorn.org/) and [flask](http://flask.pocoo.org/), as well as a [MySQL](https://www.mysql.com/) add-on.
 
@@ -78,7 +78,7 @@ The organization was amazing, and the Humana's team provided feedback on our ide
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-The team was amazing. All of us was able to contribute to the idea, as well as to its implementation. Benjamin dealt with the android application, In-Hee designed and filled the data-base as well as the script to work with FDA's API, Francisco was in charge of the design of the web application, and I worked on the server-side with python and flask.
+The team was amazing. All of us was able to contribute to the idea, as well as to its implementation. We moved from step to step smoothly, no frictions nor discussion. T-E-R-R-I-F-I-C!
 
 Yeah... let's repeat?
 

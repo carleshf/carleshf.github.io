@@ -8,6 +8,7 @@ projects: true
 description: "Microarray data analysis based on clustering of samples and gene co-expression."
 image: https://carleshf.github.io/assets/portraits/PCOPs.png
 headerImage: true
+hidden: true # avoid to be paginated
 ---
 
 ## Summary

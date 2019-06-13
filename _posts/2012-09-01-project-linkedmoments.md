@@ -5,6 +5,7 @@ category: project
 layout: post
 author: carleshf
 description: "Interactive art installation aiming to promote participants to share experiences and thoughts."
+hidden: true # avoid to be paginated
 ---
 
 ## Summary

@@ -1,16 +1,13 @@
 ---
 published: true
-title: "rexposome project"
-layout: post
-date: 2018-09-01 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Set of two R packages developed to analyze exposome data and its interaction with transcriptome and methylome data"
+title: rexposome
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "Set of two R packages developed to analyze exposome data and its interaction with transcriptome and methylome data"
 image: https://carleshf.github.io/assets/portraits/correlation-wide.png
 headerImage: true
+hidden: true # avoid to be paginated
 ---
 
 

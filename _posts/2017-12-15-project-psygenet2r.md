@@ -1,14 +1,11 @@
 ---
 published: true
-title: "psygenet2r"
-layout: post
-date: 2017-12-15 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "R package to query the PsyGeNET database from R session and use its data for comorbidity analysis."
+title: psygenet2r
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "R package to query the PsyGeNET database from R session and use its data for comorbidity analysis."
+hidden: true # avoid to be paginated
 ---
 
 

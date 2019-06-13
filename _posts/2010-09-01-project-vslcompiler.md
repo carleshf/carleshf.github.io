@@ -5,6 +5,7 @@ category: project
 layout: post
 author: carleshf
 description: "Minimal expression of a compiler that translate 'very simple language' to .net CIL code."
+hidden: true # avoid to be paginated
 ---
 
 ## Summary

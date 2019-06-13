@@ -1,16 +1,13 @@
 ---
 published: true
-title: "WEScover"
-layout: post
-date: 2018-07-18 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Shiny web application to explore the breadth of coverage per gene/exon obtained using WES technology in 1KGP."
+title: WEScover
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "Shiny web application to explore the breadth of coverage per gene/exon obtained using WES technology in 1KGP."
 image: https://carleshf.github.io/assets/portraits/gnomAD_notch1.png
 headerImage: true
+hidden: true # avoid to be paginated
 ---
 
 

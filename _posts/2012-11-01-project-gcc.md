@@ -5,6 +5,7 @@ category: project
 layout: post
 author: carleshf
 description: "Compendium of digital Christmas cards."
+hidden: true # avoid to be paginated
 ---
 
 

@@ -1,16 +1,13 @@
 ---
 published: true
-title: "CTDquerier"
-layout: post
-date: 2018-04-24 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "R package to query the Comparative Toxicogenomics Database from R session and use its data for downstream or enrichment analysis."
+title: CTDquerier
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "R package to query the Comparative Toxicogenomics Database from R session and use its data for downstream or enrichment analysis."
 image: https://carleshf.github.io/assets/portraits/gene_chemical_diseases_query.png
 headerImage: true
+hidden: true # avoid to be paginated
 ---
 
 

@@ -5,6 +5,7 @@ category: project
 layout: post
 author: carleshf
 description: "Set of tools to pre-process Affymetrix .CEL files from GenomeWide 5.0-6.0, Axiom and CytoScan HD/750K."
+hidden: true # avoid to be paginated
 ---
 
 

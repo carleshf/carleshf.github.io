@@ -1,18 +1,14 @@
 ---
 published: true
-title: "MultiDataSet"
-layout: post
-date: 2017-01-17 08:00
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "MultiDataSet is designed for integrating multi omics data sets and ResultSet is a container for omics results."
+title: MultiDataSet
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "MultiDataSet is designed for integrating multi omics data sets and ResultSet is a container for omics results."
 image: https://carleshf.github.io/assets/portraits/multiple_datasets_coordination.png
 headerImage: true
+hidden: true # avoid to be paginated
 ---
-
 
 ## Summary
 

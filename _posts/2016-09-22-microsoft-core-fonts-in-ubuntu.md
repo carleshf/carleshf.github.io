@@ -1,8 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: Microsoft Core Fonts in Ubuntu
+category: blog
+layout: post
+author: carleshf
+tags:
+  - microsoft
 ---
 
 I work with a lot of people using the suite Microsoft Office and we usually share docx document. To properly see, edit and share the content of the documents I need the official Microsoft Fonts. In ubuntu flavoured distros they can be installed with:

@@ -1,8 +1,12 @@
 ---
 published: true
+title: Building a Compiler in .Net  (4 of 4)
 category: blog
 layout: post
-title: Building a Compiler in .Net  (4 of 4)
+author: carleshf
+tags:
+  - .net
+  - C#
 ---
 
 This post is part of a series of 4. Here you have the links to each one:

@@ -1,8 +1,12 @@
 ---
 published: true
-layout: post
-category: blog
 title: Check if value exists in another column of a Microsoft Excel document
+category: blog
+layout: post
+author: carleshf
+tags:
+  - microsoft
+  - excel
 ---
 
 Today I spent some time looking for this trick. The function to use is called `VLOOKUP`. From [Office Support web page](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1):

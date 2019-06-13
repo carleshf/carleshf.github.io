@@ -1,16 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: Extract paired-end reads from (NCBI) SRA files
-author: Carles Hernandez-Ferrer
-date: '2016-01-24'
-slug: extract-paired-end-reads-from-ncbi-sra-files
-categories:
-  - tools
-  - bioinformatics
+category: blog
+layout: post
+author: carleshf
 tags:
-  - NCBI
+  - bioinformatics
 ---
 
 [SRA](http://www.ncbi.nlm.nih.gov/sra) stores all the sequencing from [GIO](http://www.ncbi.nlm.nih.gov/geo/) experiments in files in `.sra` format. These files are managed using the [SRA Toolkit](http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).

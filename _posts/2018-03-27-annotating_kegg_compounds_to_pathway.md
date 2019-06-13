@@ -1,9 +1,14 @@
 ---
 published: true
-layout: post
-category: blog
 title: Annotating KEGG compounds to pathway
+category: blog
+layout: post
+author: carleshf
+tags:
+  - R
+  - bioinformatics
 ---
+
 
 To annotate a list of [KEGG compounds](http://www.genome.jp/kegg/compound/) to the [KEGG pathways](http://www.genome.jp/kegg/pathway.html) where they are involved I used the R package [KEGGREST](https://bioconductor.org/packages/release/bioc/html/KEGGREST.html) from Bioconductor.
 

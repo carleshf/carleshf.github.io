@@ -1,8 +1,11 @@
 ---
 published: true
+title: pack and unpack in ruby
 category: blog
 layout: post
-title: pack and unpack in ruby
+author: carleshf
+tags:
+  - ruby
 ---
 
 I still enjoy how complex operations become simple when using ruby:

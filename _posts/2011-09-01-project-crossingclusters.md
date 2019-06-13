@@ -1,14 +1,11 @@
 ---
 published: true
-title: "CrossingClusters"
-layout: post
-date: 2011-09-01 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Microarray data analysis based on clustering of samples and gene co-expression."
+title: CrossingClusters
 category: project
+layout: post
 author: carleshf
-externalLink: false
+projects: true
+description: "Microarray data analysis based on clustering of samples and gene co-expression."
 image: https://carleshf.github.io/assets/portraits/PCOPs.png
 headerImage: true
 ---

@@ -1,8 +1,11 @@
 ---
 published: true
+title: Add new methods to existing classes in ruby
 category: blog
 layout: post
-title: Add new methods to existing classes in ruby
+author: carleshf
+tags:
+  - ruby
 ---
 
 I was working on a _kata_ from [CodeWars](http://www.codewars.com) that asks to implement a series of methods that involve working with arrays. This led me to discovered a feature from ruby language that impressed me: You can extend the functionality of an existing class! In other words, you can add methods to an existing class.

@@ -1,8 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: minfi betas and residuals from methylation models
+category: blog
+layout: post
+author: carleshf
+tags:
+  - R
 ---
 
 In the HELIX project we decided to use residuals instead of M values for the methylation analyses. So, how we get the residuals of a basic lineal model?

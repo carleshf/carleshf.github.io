@@ -1,8 +1,12 @@
 ---
 published: true
-layout: post
-category: blog
 title: Creating a jobs time-lime for resume in R
+category: blog
+layout: post
+author: carleshf
+tags:
+  - R
+  - ggplot2
 ---
 
 Let's say we define a `data.frame` with the jobs I've got from 2008 to 2017:

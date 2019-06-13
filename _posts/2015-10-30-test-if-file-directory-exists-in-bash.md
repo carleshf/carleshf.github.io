@@ -1,14 +1,11 @@
 ---
 published: true
+title: Test if file/directory exists in bash
 category: blog
 layout: post
-title: Test if file/directory exists in bash
-author: Carles Hernandez-Ferrer
-date: '2015-10-30'
-slug: test-if-file-directory-exists-in-bash
-categories:
+author: carleshf
+tags:
   - bash
-tags: []
 ---
 
 Currently I'm writing a pipeline, better call it a pipeline manager, in BASH. The first part of the script is to create the set up file system so it requests to check if certain files and folders exists.

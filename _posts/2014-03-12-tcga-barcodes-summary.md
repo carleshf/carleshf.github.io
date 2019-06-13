@@ -1,9 +1,14 @@
 ---
 published: true
+title: TCGA Barcodes Summary
 category: blog
 layout: post
-title: TCGA Barcodes Summary
+author: carleshf
+tags:
+  - TCGA
+  - bioinformatics
 ---
+
 
 All TCGA barcodes are created by the Biospecimen Core Resource ([BCR](https://wiki.nci.nih.gov/display/TCGA/Biospecimen+Core+Resource)). The following post wants to be a simple summary of the meaning of each part of a TCGA barcode in order to have a easy-to-look reference page.
 

@@ -1,8 +1,11 @@
 ---
 published: true
+title: Code for Care (Hackathon)
 category: blog
 layout: post
-title: Code for Care (Hackathon)
+author: carleshf
+tags:
+  - hackathon
 ---
 
 On Saturday, June 1st 2019, I attended the hackathon [Code for Care](https://www.eventbrite.com/e/code-for-care-registration-61114962498#) organized by [Humana Experience Center](https://www.humana.io/), at the District Hall (Boston, MA).

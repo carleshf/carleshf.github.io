@@ -1,17 +1,12 @@
 ---
 published: true
+title: Convert all .bam of a folder to .sam
 category: blog
 layout: post
-title: Convert all .bam of a folder to .sam
-author: Carles Hernandez-Ferrer
-date: '2015-02-15'
-slug: convert-all-bam-of-a-folder-to-sam
-categories:
+author: carleshf
+tags:
   - bash
   - bioinformatics
-tags:
-  - bam
-  - sam
 ---
 
 The following is the bash command I use to convert all the `BAM` files in a folder to `SAM` files using `SAMtools`:

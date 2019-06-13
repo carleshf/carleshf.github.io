@@ -1,14 +1,10 @@
 ---
 published: true
-title: "VSLcompiler"
-layout: post
-date: 2010-09-01 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Minimal expression of a compiler that translate 'very simple language' to .net CIL code."
+title: VSLcompiler
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "Minimal expression of a compiler that translate 'very simple language' to .net CIL code."
 ---
 
 ## Summary

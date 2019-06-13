@@ -1,8 +1,12 @@
 ---
 published: true
-layout: post
-category: blog
 title: Boston's Temperature Chart
+category: blog
+layout: post
+author: carleshf
+tags:
+  - R
+  - ggplot2
 ---
 
 

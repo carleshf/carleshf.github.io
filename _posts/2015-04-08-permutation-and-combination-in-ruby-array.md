@@ -1,8 +1,11 @@
 ---
 published: true
+title: Permutation and combination in ruby's arrays
 category: blog
 layout: post
-title: Permutation and combination in ruby's arrays
+author: carleshf
+tags:
+  - ruby
 ---
 
 Today I was working on a [simple kata](http://www.codewars.com/kata/54381f0b6f032f933c000108/train/ruby) of CodeWars that required to work with combinations and permutations of elements given in array.

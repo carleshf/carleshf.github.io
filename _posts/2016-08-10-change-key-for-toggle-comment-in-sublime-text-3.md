@@ -1,9 +1,13 @@
 ---
 published: true
-layout: post
-category: blog
 title: Change key for toggle comment in Sublime Text 3
+category: blog
+layout: post
+author: carleshf
+tags:
+  - IDE
 ---
+
 
 I love Sublime Text 3 but I'm sued to `Ctrl + Shift + C` to _toggle comment_ the current line or block of lines. The default behaviour of Sublime Text for _commenting_ is:
 

@@ -1,15 +1,11 @@
 ---
 published: true
+title: GNU/Linux alias with arguments
 category: blog
 layout: post
-title: GNU/Linux alias with arguments
-author: Carles Hernandez-Ferrer
-date: '2014-07-02'
-slug: gnu-linux-alias-with-arguments
-categories:
+author: carleshf
+tags:
   - bash
-  - ubuntu
-tags: []
 ---
 
 I used to create (GNU/Linux) `alias` as way to rename the standard commands, like this:

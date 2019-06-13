@@ -1,8 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: Cross-referencing between different files with LaTeX
+category: blog
+layout: post
+author: carleshf
+tags:
+  - LaTeX
 ---
 
 Sometimes I want to refer labels I placed in external `.tex` files. I mean, I want o refer  (using the command `\ref`) a `\label` from  a `.tex` file I created in another project.

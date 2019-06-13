@@ -1,14 +1,10 @@
 ---
 published: true
-title: "Linked Moments"
-layout: post
-date: 2012-09-01 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Interactive art installation aiming to promote participants to share experiences and thoughts."
+title: Linked Moments
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "Interactive art installation aiming to promote participants to share experiences and thoughts."
 ---
 
 ## Summary

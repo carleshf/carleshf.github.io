@@ -1,9 +1,13 @@
 ---
 published: true
+title: Sorting a multidimensional array in PHP
 category: blog
 layout: post
-title: Sorting a multidimensional array in PHP
+author: carleshf
+tags:
+  - PHP
 ---
+
 I was developing a simple web service to retrieve data from a data server and I want to sort the result by the key's value of a sub-array.
 
 I'm talking about an array who looks like this:

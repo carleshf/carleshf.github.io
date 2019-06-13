@@ -1,14 +1,10 @@
 ---
 published: true
-title: "affy2sv"
-layout: post
-date: 2015-05-20 22:10
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Set of tools to pre-process Affymetrix .CEL files from GenomeWide 5.0-6.0, Axiom and CytoScan HD/750K."
+title: affy2sv
 category: project
+layout: post
 author: carleshf
-externalLink: false
+description: "Set of tools to pre-process Affymetrix .CEL files from GenomeWide 5.0-6.0, Axiom and CytoScan HD/750K."
 ---
 
 

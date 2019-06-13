@@ -1,8 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: Change the title of Table of Contents (ToC) in LaTeX
+category: blog
+layout: post
+author: carleshf
+tags:
+  - LaTeX
 ---
 
 The steps to change the title of the *table of contents* (ToC) depends on if you are using the `babel` package or not.

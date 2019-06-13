@@ -1,8 +1,12 @@
 ---
-layout: post
 published: true
+title: Exploiting XML data from Human Metabolome Data Base
 category: blog
-title: Exploting XML data from Human Metabolome Data Base
+layout: post
+author: carleshf
+tags:
+  - python
+  - bioinformatics
 ---
 
 I am currently working on a project where I need to annotate exogenous chemicals measured in plasma using GC-MS/MS to the Human Metabolome Data Base ([HMDB](http://www.hmdb.ca)) and to the Toxin and Toxin Target Database ([T3DB](http://www.t3db.ca)).

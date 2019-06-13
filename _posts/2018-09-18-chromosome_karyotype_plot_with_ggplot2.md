@@ -1,8 +1,12 @@
 ---
 published: true
-layout: post
-category: blog
 title: practical ggplot2 - Creating a chromosome karyotype plot
+category: blog
+layout: post
+author: carleshf
+tags:
+  - R
+  - ggplot2
 ---
 
 The first step is to get the size of each chromosome and the location of the centromeres. I download the tables "chromInfo" for chromosome size and "gap" for centromeres annotation from the UCSC (http://genome.ucsc.edu/cgi-bin/hgTables).

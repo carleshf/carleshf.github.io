@@ -1,8 +1,11 @@
 ---
 published: true
+title: First problems from LeetCode
 category: blog
 layout: post
-title: First problems from LeetCode
+author: carleshf
+tags:
+  - javascript
 ---
 
 During this month I have been doing some research about the interview process in Apple, and from _Glassdoor_ answers I discovered [`LeetCode`](https://leetcode.com).

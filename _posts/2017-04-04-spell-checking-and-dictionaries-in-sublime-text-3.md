@@ -1,8 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: Spell-checking in Sublime Text 3
+category: blog
+layout: post
+author: carleshf
+tags:
+  - IDE
 ---
 
 I was a fan of the package `Dictionaries` but is seems that it is no available and that will not be re-included. The package's page in __package control__ is [here](https://packagecontrol.io/packages/Dictionaries), indicating that the package was removed.

@@ -1,8 +1,11 @@
 ---
 published: true
-layout: post
-category: blog
 title: Unload (detach) a loaded R package
+category: blog
+layout: post
+author: carleshf
+tags:
+  - R
 ---
 
 A long the process of creating and testing R packages I usually need to *unload* a loaded package. The function to perform this operation is called `detach` and must be run as:

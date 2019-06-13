@@ -1,16 +1,11 @@
 ---
 published: true
+title: Decompress all files in folder
 category: blog
 layout: post
-title: Decompress all files in folder
-author: Carles Hernandez-Ferrer
-date: '2015-11-01'
-slug: decompress-all-files-in-folder
-categories:
-  - tools
-  - bash
+author: carleshf
 tags:
-  - zip
+  - bash
 ---
 
 Just a line to decompress all the `.fastq.gz` files in a folder:

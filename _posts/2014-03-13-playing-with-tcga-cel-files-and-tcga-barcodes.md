@@ -1,19 +1,16 @@
 ---
 published: true
+title: Playing with TCGA .CEL files and TCGA Barcodes
 category: blog
 layout: post
-title: Playing with TCGA .CEL files and TCGA Barcodes
-author: Carles Hernandez-Ferrer
-date: '2014-03-13'
-slug: playing-with-tcga-cel-files-and-tcga-barcodes
-categories:
-  - R
-  - bioinformatics
+author: carleshf
 tags:
   - TCGA
+  - R
+  - bioinformatics
 ---
 
-Today I want a file relating the names of the .CEL files from TCGA, the barcodes for this samples and the definition of the sample type in the three available forms (numeric, short and description). An example, the following:
+Today I want a file relating the names of the `.CEL` files from TCGA, the barcodes for this samples and the definition of the sample type in the three available forms (numeric, short and description). An example, the following:
 
 ```
 filename        barcode sampletype_numeric      sampletype_short        sampletype_desc
@@ -48,6 +45,6 @@ tcga_barc_tbl <- function(typefile, mapfile, outfile="TABLE_TCGA.TSV") {
 }
 ```
 
-The function tgca_barc_tbl needs the FILE_SAMPLE_MAP.txt and the sampleType.csv. The first one comes in the .tar.gz file when downloading from TGCA - Data Matrix. The second one can be generated at codeTableReport
+The function `tgca_barc_tbl` needs the `FILE_SAMPLE_MAP.txt` and the `sampleType.csv`. The first one comes in the `.tar.gz` file when downloading from _TGCA - Data Matrix_. The second one can be generated at _codeTableReport_.
 
 Feel free to use it at your own.

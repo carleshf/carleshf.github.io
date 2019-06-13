@@ -1,18 +1,13 @@
 ---
 published: true
+title: Gene-Enrichment in PsyGeNET's Main-Psychiatric-Disorders
 category: blog
 layout: post
-title: Gene-Enrichment in PsyGeNET's Main-Psychiatric-Disorders
-author: Carles Hernandez-Ferrer
-date: '2015-01-06'
-slug: gene-enrichment-in-psygenet-s-main-psychiatric-disorders
-categories:
-  - bioinformatics
-  - R
+author: carleshf
 tags:
   - statistics
-  - psygenet
-  - enrichment
+  - R
+  - bioinformatics
 ---
 
 [PsyGeNET](http://psygenet.org) is a database that integrates information on psychiatric disorders and their genes (check its *About* page for more information). The current version of the database centered the information of three main psychiatric disorders: **Alcoholism**, **Depression** and **Cocaine-Related-Disorders**.

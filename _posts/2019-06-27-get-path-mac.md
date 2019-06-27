@@ -10,7 +10,7 @@ tags:
 
 During the last year, I have been working using MAC. The feature that I miss the most is a fast way to get the path of a file or folder and an immediate way to move to a given path. Although <kbd>SHIFT</kbd>+<kbd>CMD</kbd>+<kbd>d</kbd> activates the `Go to the folder:` action and solves the second, I did not find an alternative for the first.
 
-Visualizing and copying the path to a file or folder is easy from Finder:
+Visualizing and copying the path to a file or folder is easy from `Finder`:
 
  1. Select the file or folder in Finder
  2. <kbd>CMD</kbd>+<kbd>i</kbd> to summon `Get Info`
@@ -18,7 +18,7 @@ Visualizing and copying the path to a file or folder is easy from Finder:
 
 ![Finder shows the location of a file or folder in "Where"]({{baseurl}}/assets/get-path-mac-01.png)
 
-But I find myself frequently needing to copy and paste file and folder paths and this option became tedious.
+But I find myself frequently needing to copy and paste a file or folder path and this option became tedious.
 
 So I *discovered* the `Automator`, an application that allows you to automate tasks.
 
@@ -27,9 +27,9 @@ So I *discovered* the `Automator`, an application that allows you to automate ta
  3. On `Workflow receives current` select `files or folders` and on `in` select `Finder`
  4. Save the document as `Copy Path`
 
-![Automator - Designing the copy path quick action]({{baseurl}}/assets/get-path-mac-02.png)
+![Automator - Designing the "Copy Path" quick action]({{baseurl}}/assets/get-path-mac-02.png)
 
 Now we can access to the `Quick Action` using the context menu in `Finder`.
 
-![Finder - Copy Path  as quick action]({{baseurl}}/assets/get-path-mac-03.png)
+![Finder - "Copy Path" as quick action]({{baseurl}}/assets/get-path-mac-03.png)
 

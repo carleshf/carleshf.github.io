@@ -13,7 +13,7 @@ During the last year, I have been working using MAC. The feature that I miss the
 Visualizing and copying the path to a file or folder is easy from Finder:
 
  1. Select the file or folder in Finder
- 2. <kbd>CMD</kbd>+<kbd>i<kbd> to summon `Get Info`
+ 2. <kbd>CMD</kbd>+<kbd>i</kbd> to summon `Get Info`
  3. Click and drag alongside "Where" to select the path
 
 ![Finder shows the location of a file or folder in "Where"]({{baseurl}}/assets/get-path-mac-01.png)

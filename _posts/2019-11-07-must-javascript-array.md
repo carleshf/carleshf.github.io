@@ -18,7 +18,7 @@ I am writing here some basic implementations of what I've been missing:
 
   * __Method `unique`__
 
-    * Implementation:
+Implementation:
 
 ```javascript
 Object.defineProperties(Array.prototype, {
@@ -32,7 +32,7 @@ Object.defineProperties(Array.prototype, {
 });
 ```
 
-    * Example:
+Example:
 
 ```
 var arr = [1, 3, 4, 5, 1, 2, 3, 4]
@@ -42,7 +42,7 @@ arr.unique()
 
   * __Method `count`__
 
-    * Implementation:
+Implementation:
 
 ```javascript
 Object.defineProperties(Array.prototype, {
@@ -63,7 +63,7 @@ Object.defineProperties(Array.prototype, {
 });
 ```
 
-    * Example:
+Example:
 
 ```
 var arr = [1, 3, 4, 5, 1, 2, 3, 4]
@@ -75,7 +75,7 @@ arr.count(5)
 
   * __Method `table`__
 
-    * Implementation:
+Implementation:
 
 ```javascript
 Object.defineProperties(Array.prototype, {
@@ -91,7 +91,7 @@ Object.defineProperties(Array.prototype, {
 });
 ```
 
-    * Example:
+Example:
 
 ```
 var arr = [1, 3, 4, 5, 1, 2, 3, 4]
@@ -108,7 +108,7 @@ arr.table()
 
   * __Method `includesObject`__
 
-    * Implementation:
+Implementation:
 
 ```javascript
 Object.defineProperties(Array.prototype, {
@@ -124,10 +124,13 @@ Object.defineProperties(Array.prototype, {
 });
 ```
 
-    * Example:
+Example:
 
 ```
-var arr = [{'n': 'a', 'v': 2, 'k': 3.2}, {'n': 'b', 'v': 3, 'k': 0.1}, {'n': 'c', 'v': 4, 'k': 1.8}]
+var arr = [{'n': 'a', 'v': 2, 'k': 3.2}, 
+    {'n': 'b', 'v': 3, 'k': 0.1}, 
+    {'n': 'c', 'v': 4, 'k': 1.8}
+]
 arr.includesObject('a', 'n')
 >> true
 arr.includesObject('z', 'n')
@@ -136,7 +139,7 @@ arr.includesObject('z', 'n')
 
   * __Method `sortObject`__
 
-    * Implementation:
+Implementation:
 
 ```javascript
 Object.defineProperties(Array.prototype, {
@@ -162,7 +165,7 @@ Object.defineProperties(Array.prototype, {
 });
 ```
 
-    * Example:
+Example:
 
 ```
 var arr = [{'n': 'a', 'v': 2, 'k': 3.2}, {'n': 'b', 'v': 3, 'k': 0.1}, {'n': 'c', 'v': 4, 'k': 1.8}]

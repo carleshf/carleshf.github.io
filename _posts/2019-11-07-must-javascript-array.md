@@ -16,7 +16,7 @@ Then I missed a couple of methods that allows for further flexibility on playing
 
 I am writing here some basic implementations of what I've been missing:
 
-  1. **Method `unique`**
+  * __Method `unique`__
 
     * Implementation:
 
@@ -40,7 +40,7 @@ arr.unique()
 >> Array(5) [ 1, 3, 4, 5, 2 ]
 ```
 
-  2. **Method `count`**
+  * __Method `count`__
 
     * Implementation:
 
@@ -73,7 +73,7 @@ arr.count(5)
 >> 1
 ```
 
-  3. **Method `table`**
+  * __Method `table`__
 
     * Implementation:
 
@@ -106,7 +106,7 @@ arr.table()
 	<prototype>: Array []
 ```
 
-  4. **Method `includesObject`**
+  * __Method `includesObject`__
 
     * Implementation:
 
@@ -134,7 +134,7 @@ arr.includesObject('z', 'n')
 >> false
 ```
 
-  5. **Method `sortObject`**
+  * __Method `sortObject`__
 
     * Implementation:
 

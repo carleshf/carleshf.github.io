@@ -168,7 +168,10 @@ Object.defineProperties(Array.prototype, {
 Example:
 
 ```
-var arr = [{'n': 'a', 'v': 2, 'k': 3.2}, {'n': 'b', 'v': 3, 'k': 0.1}, {'n': 'c', 'v': 4, 'k': 1.8}]
+var arr = [{'n': 'a', 'v': 2, 'k': 3.2}, 
+    {'n': 'b', 'v': 3, 'k': 0.1}, 
+    {'n': 'c', 'v': 4, 'k': 1.8}
+]
 arr.sortObject('v')
 >> (3) […]
 	​0: Object { n: "a", v: 2, k: 3.2 }

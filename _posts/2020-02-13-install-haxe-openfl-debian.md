@@ -27,7 +27,7 @@ tar -xvf haxe-4.0.5-linux64.tar.gz
 ```
 mv haxe_20191217082701_67feacebc haxe-4.0.5
 ```
- 
+
 Haxe 4 is now locally prepared. Next step is to make it available:
 
 ```
@@ -52,5 +52,14 @@ haxelib install openfl
 haxelib run openfl setup
 ```
 
+Next step is to download and prepare Neko:
 
+pkgconf libgc-dev zlib1g-dev
 
+```
+cd /opt/
+wget https://github.com/HaxeFoundation/neko/releases/download/v2-3-0/neko-2.3.0-linux64.tar.gz
+tar -xvf v2-3-0.tar.gz
+cd /usr/bin
+sudo ln -s /opt/neko-2.3.0-linux64/neko .
+```

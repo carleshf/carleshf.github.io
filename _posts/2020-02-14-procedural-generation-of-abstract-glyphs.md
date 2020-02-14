@@ -29,4 +29,4 @@ The last part was to decide the colors to use as background and for the _glyphs_
 
 In order: _paper_ - `0xfff8db`, _light salmon_ - `0xf78bc1`, _cloud blue_ - `0xafd8df`, and _ink blue_ - `0x000f55`.
 
-The final piece can be in in [my dashboard](https://carleshf.itch.io/) at itch, just look for "Triangle Glyphs".
+The final piece can be in in [my dashboard](https://carleshf.itch.io/) at itch, just look for "Triangle Glyphs". The code is available in [GitHub](https://github.com/carleshf/triangleGliph).

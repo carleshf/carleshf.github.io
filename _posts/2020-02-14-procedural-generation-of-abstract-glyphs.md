@@ -21,11 +21,11 @@ So I started by placing a triangle in a matrix of 9x9 dots and assigning a proba
 
 Then I dissected the glyph and obtained ten small pieces with which to create the filling of the triangle and create a _glyph_. I assigned the same probability to each piece to be part of the final _glyph_.
 
-![Content of triangle glyphs]({{baseurl}}/assets/haxe-triangle-glyp-02.png)
+![Content of triangle glyphs]({{baseurl}}/assets/haxe-triangle-glyph-02.png)
 
 The last part was to decide the colors to use as background and for the _glyphs_. I went for a _old-paper_ color as background and some _old-ink_ colors for the _glyphs_.
 
-![Colors for triangular glyphs]({{baseurl}}/assets/haxe-triangle-glyp-03.png)
+![Colors for triangular glyphs]({{baseurl}}/assets/haxe-triangle-glyph-03.png)
 
 In order: _paper_ - `0xfff8db`, _light salmon_ - `0xf78bc1`, _cloud blue_ - `0xafd8df`, and _ink blue_ - `0x000f55`.
 

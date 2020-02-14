@@ -15,7 +15,7 @@ As you can see there, the challenge was on generating a set of _runes_, _glyphs_
 
 I focused on the _gliphs_ with triangular forms, the ones called "actions" in the reference picture. I first sifted the _gliphs_ from the figure on order to have a more clear picture of the type of _triangular gliphs_ I wanted to create. So, I removed "connect" and "reflect" since they broke the pyramidal structure of the others ones, and I also sifted "learn", "understand", and "protect", because they added two new elements (the circle and the dot) that I dislike.
 
-So I started by placing a triangle in a matrix of 9x9 dots and assigning a probability of 0.9 to a full closed triangle and a probability of 0.1 to a base-open triangle.
+So I started by placing a triangle in a matrix of 9x9 dots and assigning a probability of 0.9 to a clos-base triangle and a probability of 0.1 to a open-base triangle.
 
 ![Outline of triangle glyphs]({{baseurl}}/assets/haxe-triangle-glyph-01.png)
 

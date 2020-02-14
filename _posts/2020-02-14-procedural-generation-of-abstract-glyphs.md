@@ -13,7 +13,7 @@ tags:
 
 Some days ago I randomly ended into the subreddit on __Procedural generation__, which I didn't suspect existed. In specific, I ended up into the [_monthly challange_](https://www.reddit.com/r/proceduralgeneration/comments/5wzo7j/monthly_challenge_16_march_2017_procedural_runes/) of March 2017.
 
-As you can see there, the challenge was on generating a set of _runes_, _glyphs_, or _symbols_. I found the challenge very interesting and stating from one of the pictures they reference ([this one](http://i.imgur.com/haZhAVz.png)) I decided to create my own _generator_ as an excuse to learn a bit of [Haxe](https://haxe.org/) and [OpenFL](https://www.openfl.org/).
+As you can see there, the challenge was on generating a set of _runes_, _glyphs_, or _symbols_. I found the challenge very interesting and starting from one of the pictures they reference ([this one](http://i.imgur.com/haZhAVz.png)) I decided to create my own _generator_ as an excuse to learn a bit of [Haxe](https://haxe.org/) and [OpenFL](https://www.openfl.org/).
 
 I focused on the _gliphs_ with triangular forms, the ones called "actions" in the reference picture. I first sifted the _gliphs_ from the figure in order to have a more clear picture of the type of _triangular gliphs_ I wanted to create. So, I removed "connect" and "reflect" since they broke the pyramidal structure of the other ones. I also sifted "learn", "understand", and "protect", because they added two new elements (the circle and the dot) that I dislike.
 

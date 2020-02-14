@@ -23,7 +23,7 @@ With the border already working, I dissected the original _glyph_ and obtained t
 
 ![Content of triangle glyphs]({{baseurl}}/assets/haxe-triangle-glyph-02.png)
 
-After many test, I decided to impose some rules to avoid the creation of overcharged _glyps_:
+After many test, I decided to impose some rules to avoid the creation of overcharged _glyphs_:
 
    1. A _glyph_ will have a maximum of a border and three pieces with a probability of 0.6 to have a single piece, 0.3 for two pieces, and 0.1 for three pieces.
    2. When added any diagonal lines none of the following pieces can be added (and vice versa): (small) happy face, (small) sad face, leg (line in the middle), (large) sad face, nor any diagonal.
@@ -33,7 +33,7 @@ After many test, I decided to impose some rules to avoid the creation of overcha
 
 With this rules in place, I liked the type of _glyphs_ obtained from the random generation.
 
-The last part was to decide the colors to use as background and for the glyphs. I went for a old-paper color as background and some old-ink colors for the glyphs:
+The last part was to decide the colors to use as background and for the _glyphs_. I went for a old-paper color as background and some old-ink colors for the _glyphs_:
 
    * _paper_: `0xfff8bd`
    * _pink salmon_: `0xf78bc1`
@@ -42,6 +42,6 @@ The last part was to decide the colors to use as background and for the glyphs. 
 
 ![Colors for triangular glyphs]({{baseurl}}/assets/haxe-triangle-glyph-03.png)
 
-The final piece can be seen in [my dashboard](https://carleshf.itch.io/) at itch (just look for "Triangle Glyphs"). The small web application allows you to generate a wall with 30 randomly generated _glyps_, an alphabet with 25 unique _glyps_, and to see the pieces used to create all of them.
+The final piece can be seen in [my dashboard](https://carleshf.itch.io/) at itch (just look for "Triangle Glyphs"). The small web application allows you to generate a wall with 30 randomly generated _glyphs_, an alphabet with 25 unique _glyphs_, and to see the pieces used to create all of them.
 
 The code is available at [GitHub](https://github.com/carleshf/triangleGliph).
